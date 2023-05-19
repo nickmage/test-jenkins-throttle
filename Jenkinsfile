@@ -5,8 +5,8 @@ pipeline {
         stage('Sleep Stage') {
             steps {
                 script {
-                    echo 'Sleeping for 30 seconds...'
-                    sleep time: 30, unit: 'SECONDS'
+                    echo 'Sleeping for 60 seconds...'
+                    sleep time: 60, unit: 'SECONDS'
                     echo 'Sleep completed.'
                 }
             }
